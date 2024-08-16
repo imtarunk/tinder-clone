@@ -1,0 +1,35 @@
+.card {
+  border-radius: 25px;
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #302f2f;
+  transition: 0.2s ease-in-out;
+  margin: 15px;
+}
+
+.card > h3 {
+  position: absolute;
+  bottom: 10px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bolder;
+
+  font-family: ProximaNova, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Helvetica, Arial, Segoe UI Emoji,
+    Segoe UI Symbol, Apple Color Emoji, Twemoji Mozilla, Noto Color Emoji,
+    EmojiOne Color, Android Emoji;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.swipe {
+  position: absolute;
+}

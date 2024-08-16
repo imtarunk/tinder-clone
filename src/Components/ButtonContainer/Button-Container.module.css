@@ -1,0 +1,15 @@
+.BelowButtonContainer {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border: 0;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}

@@ -1,19 +1,25 @@
-import { useState } from 'react'
-import './App.css'
+// import { useState } from 'react';
+import './App.css';
+import Header from './Components/Header/Header'
+import TinderCard from './Components/Tinder-card/TinderCard';
+import ButtonContainer from './Components/ButtonContainer/Button-Container';
+import ChatScreen from './Components/chatScreen/ChatScreen';
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <div className="box">
-        <h1>Let's build TINDER clone 🚀</h1>
 
-        {/* Header */}
-        {/* Tinder-card */}
-        {/* button container */}
 
-        {/* Chat screen  */}
+        <Header />
+        <TinderCard />
+        <ButtonContainer />
+
+        {/* <ChatScreen /> */}
+        {/* individual chat icon */}
+
       </div>
     </>
   )

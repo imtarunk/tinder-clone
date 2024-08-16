@@ -2,14 +2,20 @@
   position: absolute;
   bottom: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
 }
 
 .btn {
-  height: 50px;
-  width: 50px;
-  border: 0;
-  border-radius: 25px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid;
+  border-radius: 45px;
   margin-bottom: 15px;
+  background-color: white;
+}
+
+.btn:hover {
+  transform: translatez(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 }
